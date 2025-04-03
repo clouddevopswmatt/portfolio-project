@@ -1,0 +1,21 @@
+Collecting SQLAlchemy
+  Downloading sqlalchemy-2.0.40-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.6 kB)
+Collecting Pytest
+  Downloading pytest-8.3.5-py3-none-any.whl.metadata (7.6 kB)
+Collecting greenlet>=1 (from SQLAlchemy)
+  Downloading greenlet-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+Requirement already satisfied: typing-extensions>=4.6.0 in /home/codespace/.local/lib/python3.12/site-packages (from SQLAlchemy) (4.12.2)
+Collecting iniconfig (from Pytest)
+  Downloading iniconfig-2.1.0-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: packaging in /home/codespace/.local/lib/python3.12/site-packages (from Pytest) (24.2)
+Collecting pluggy<2,>=1.5 (from Pytest)
+  Downloading pluggy-1.5.0-py3-none-any.whl.metadata (4.8 kB)
+Downloading sqlalchemy-2.0.40-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 37.1 MB/s eta 0:00:00
+Downloading pytest-8.3.5-py3-none-any.whl (343 kB)
+Downloading greenlet-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (613 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 613.1/613.1 kB 27.6 MB/s eta 0:00:00
+Downloading pluggy-1.5.0-py3-none-any.whl (20 kB)
+Downloading iniconfig-2.1.0-py3-none-any.whl (6.0 kB)
+Installing collected packages: pluggy, iniconfig, greenlet, SQLAlchemy, Pytest
+Successfully installed Pytest-8.3.5 SQLAlchemy-2.0.40 greenlet-3.1.1 iniconfig-2.1.0 pluggy-1.5.0
